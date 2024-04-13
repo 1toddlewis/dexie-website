@@ -77,7 +77,7 @@ The same context instance will be given for all calls to sync() as long as the U
 An example on how to use this context can be found in: [WebSocketSyncProtocol.js](https://github.com/dfahlander/Dexie.js/blob/master/samples/remote-sync/websocket/WebSocketSyncProtocol.js).
 
 ### url : String
-URL of the remote node to establish a continuos sync with.
+URL of the remote node to establish a continuous sync with.
 
 ### options : Object
 Additional information from caller. Example of options could be timeout settings, poll intervals, authentication credentials, etc. The options are optional and implementation specific. Options maps to the 'options' parameter in [db.syncable.connect()](/docs/Syncable/db.syncable.connect())
